@@ -6,6 +6,12 @@ namespace Task1
 {
     public class BubbleSort
     {
+        /// <summary>
+        /// Sorts jugged array by Bubble Algorithm with come comparator
+        /// </summary>
+        /// <param name="arr">jugged array</param>
+        /// <param name="comparator">implements comparation way</param>
+        /// <exception cref="ArgumentNullException"></exception>
         public static void SortJuggedArray(int[][] arr, ICustomComparator comparator)
         {
             if (arr == null)
